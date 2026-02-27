@@ -1479,15 +1479,6 @@
 		(uuid "59f51151-be06-4932-a1d3-12ed0626e5e4")
 	)
 	(bus_entry
-		(at 167.64 181.61)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8384710-06b8-458e-94f1-d53bb354ad26")
-	)
-	(bus_entry
 		(at 167.64 168.91)
 		(size 2.54 2.54)
 		(stroke
@@ -1847,7 +1838,7 @@
 	)
 	(bus
 		(pts
-			(xy 167.64 181.61) (xy 167.64 182.88)
+			(xy 167.64 179.07) (xy 167.64 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2005,16 +1996,6 @@
 		)
 		(uuid "94f20679-8624-4e93-9625-cc9081303673")
 	)
-	(bus
-		(pts
-			(xy 167.64 179.07) (xy 167.64 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95626819-b2b6-4d01-9c4b-4de8b1e03274")
-	)
 	(wire
 		(pts
 			(xy 195.58 114.3) (xy 198.12 114.3)
@@ -2044,16 +2025,6 @@
 			(type default)
 		)
 		(uuid "9e4bb8c3-0bf6-45c6-a600-ff8808a983f4")
-	)
-	(wire
-		(pts
-			(xy 196.85 184.15) (xy 199.39 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2d47551-ad29-4527-ab4e-4ff865b37b1c")
 	)
 	(wire
 		(pts
@@ -2124,16 +2095,6 @@
 			(type default)
 		)
 		(uuid "be90c95c-7cc4-43f5-a87e-1fca7ef3d341")
-	)
-	(wire
-		(pts
-			(xy 170.18 184.15) (xy 191.77 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c43ea212-f838-43fa-810b-530d056b3292")
 	)
 	(wire
 		(pts
@@ -2454,16 +2415,6 @@
 			(justify left bottom)
 		)
 		(uuid "eaa88336-8acc-470f-96f4-483f2299f765")
-	)
-	(label "AUX7"
-		(at 171.45 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f584619b-f167-4177-bea8-6b47584fb3f6")
 	)
 	(hierarchical_label "DIR_B"
 		(shape input)
@@ -3032,91 +2983,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 194.31 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39317a0e-6f6b-4fbc-a3b9-dc68eaea679e")
-		(property "Reference" "R58"
-			(at 190.754 182.372 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33R"
-			(at 194.564 182.372 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.31 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 194.31 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 196.088 185.674 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 192.786 185.674 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "13514acc-ea81-479e-9835-13ac69e512c6")
-		)
-		(pin "1"
-			(uuid "2a3607f5-cdb5-4f2d-b481-f64e10b169db")
-		)
-		(instances
-			(project "HAT_RPI_PnP"
-				(path "/5f6a39c5-abaf-4c77-9d7f-0c5e40ba26bf/afa508bb-8139-4a85-ad2f-eb6d316c84bc"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 252.73 106.68 0)
 		(unit 1)
@@ -3339,6 +3205,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -3347,6 +3214,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
