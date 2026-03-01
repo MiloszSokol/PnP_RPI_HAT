@@ -3918,7 +3918,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 187.96 163.83 90)
+		(at 187.96 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3927,7 +3927,7 @@
 		(fields_autoplaced yes)
 		(uuid "7465a5f1-1682-4af9-af79-998f7b4a7b26")
 		(property "Reference" "#PWR0120"
-			(at 191.77 163.83 0)
+			(at 191.77 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3936,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 184.15 163.8299 90)
+			(at 184.15 166.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 163.83 0)
+			(at 187.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 163.83 0)
+			(at 187.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 163.83 0)
+			(at 187.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,15 +4794,15 @@
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 195.58 166.37 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5ccf9c5-d9ba-4b05-a970-62228c4ac161")
 		(property "Reference" "J12"
-			(at 198.12 165.0999 0)
+			(at 198.12 167.6401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4811,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 198.12 167.6399 0)
+			(at 198.12 165.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +4856,7 @@
 			(uuid "ace2cf9a-0c04-4d18-9990-0a22d3766fde")
 		)
 		(instances
-			(project ""
+			(project "HAT_RPI_PnP"
 				(path "/5f6a39c5-abaf-4c77-9d7f-0c5e40ba26bf/71fc1cdf-affb-4c26-9c39-e444edbe6298"
 					(reference "J12")
 					(unit 1)
@@ -5094,7 +5094,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 187.96 166.37 90)
+		(at 187.96 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5103,7 +5103,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0fbbd67-ecb3-4668-8f90-b1f49becf731")
 		(property "Reference" "#PWR0119"
-			(at 191.77 166.37 0)
+			(at 191.77 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5112,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 184.15 166.3699 90)
+			(at 184.15 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 166.37 0)
+			(at 187.96 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 166.37 0)
+			(at 187.96 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 166.37 0)
+			(at 187.96 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
